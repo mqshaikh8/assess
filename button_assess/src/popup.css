@@ -1,0 +1,31 @@
+
+.popup{
+    display:'flex';
+    height: 100px;
+    width: 100px;
+    border:solid #000 ;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 110%;
+
+}
+.animate{
+    display:'flex';
+    height: 100px;
+    width: 100px;
+    border:solid #000 ;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 110%;
+    animation: move;
+    animation-duration: 25s;
+}
+
+@keyframes move {
+    0% { transform: translate(0px, 0px) }
+
+    20% {transform: translate(-700px, 0px)}
+    40% {animation-delay: 8s}
+}
